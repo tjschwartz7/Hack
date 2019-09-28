@@ -1,0 +1,15 @@
+if(keyboard_check(vk_right))
+{
+	p2MoveRight();
+}
+
+if(keyboard_check(vk_left))
+{
+	p2MoveLeft();
+}
+
+if(keyboard_check_pressed(vk_up))
+{
+	p2ListFunction();
+	 
+}
