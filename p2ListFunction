@@ -10,13 +10,13 @@ if (keyboard_check_released(vk_up)) {
 	{
 		dropKey = 0;
 	}
-	
 	if(dropKey == 0)
-	sprite_index = "CowSprite";
+	sprite_index = Cowsprite;
 	if(dropKey == 1)
-	sprite_index = "sprite1";
+	sprite_index = Cowsprite;
 	if(dropKey == 2)
-	sprite_index = "sprite2";
+	sprite_index = Cowsprite;
 	if(dropKey == 3)
-	sprite_index = "sprite3";
+	sprite_index = Cowsprite;
+}
 }
