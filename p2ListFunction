@@ -1,0 +1,22 @@
+//Choose which ability to use for p2
+
+dropKey = global.dropKey;
+
+if (keyboard_check_released(vk_up)) {
+	if (dropKey < 4) {
+		dropKey += 1;
+	}
+	else if (dropKey == 4)
+	{
+		dropKey = 0;
+	}
+	
+	if(dropKey == 0)
+	sprite_index = "CowSprite";
+	if(dropKey == 1)
+	sprite_index = "sprite1";
+	if(dropKey == 2)
+	sprite_index = "sprite2";
+	if(dropKey == 3)
+	sprite_index = "sprite3";
+}
