@@ -59,7 +59,7 @@ if (keyboard_check_pressed(vk_up)) {
 	vspeed =+ 8;
 	}
 	
-  //A COW
+  //A COW (an INCOMPLETE ONE!!)
   if(keyboard_check_released(vk_down))
 	{
 	x = global.P2x;
