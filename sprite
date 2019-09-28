@@ -58,7 +58,18 @@ if (keyboard_check_pressed(vk_up)) {
 {
 	vspeed =+ 8;
 	}
-  
+	
+  //A COW
+  if(keyboard_check_released(vk_down))
+	{
+	x = global.P2x;
+	y = global.P2y + 64;
+	}
+	else if(keyboard_check_pressed(vk_down))
+	{
+	vspeed =+ 8;
+	}
+	
   //Beam sprite
   x = global.P2x;
 y = global.P2y + 64;
