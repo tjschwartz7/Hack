@@ -1,0 +1,2 @@
+if (place_free(x - 1, y) && place_free(x + 1, y) && hspeed <= 1.5 && hspeed >= -1.5)
+hspeed *= 1.1;
