@@ -1,0 +1,7 @@
+global.dropKey = 0;
+global.PlayerisDead = false;
+global.P1Lives = 3;
+global.GameOver = false;
+global.AmmoCount = 100;
+global.P2Lives = 3;
+global.increment = 8;
