@@ -60,6 +60,7 @@ if (keyboard_check_pressed(vk_up)) {
 	}
 	
   //A COW (an INCOMPLETE ONE!!)
+ 
   if(keyboard_check_released(vk_down))
 	{
 	x = global.P2x;
@@ -69,7 +70,7 @@ if (keyboard_check_pressed(vk_up)) {
 	{
 	vspeed =+ 8;
 	}
-	
+}
   //Beam sprite
   x = global.P2x;
 y = global.P2y + 64;
